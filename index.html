@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lotto</title>
+
+    <!-- Link the style sheet -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Link to Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Krona+One&family=Lexend+Tera:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <img src="assets/wallpaper.jpg" alt="wallpaper" class="image" />
+
+    <!-- Game title -->
+    <h1 class="title">Lotto Ticket</h1>
+    <div class="flex-container">
+      <!-- Ticket numbers -->
+      <p class="subtitle">Ticket numbers</p>
+      <div id="all" class="numbers-container"></div>
+
+      <!-- Selected numbers -->
+      <p class="subtitle">Selected numbers</p>
+      <div id="selected" class="numbers-container selected">
+        <p id="notification" class="error">Error message</p>
+      </div>
+
+      <!-- Generate numbers button -->
+      <div class="btns">
+        <button id="btn-draw" class="btn">DRAW</button>
+        <button id="btn-reset" class="btn">RETRY</button>
+      </div>
+
+      <!-- Winning numbers -->
+      <p class="subtitle">Winning numbers</p>
+      <div id="winners" class="numbers-container winner"></div>
+    </div>
+    <p id="player-message" class="player-message">
+      You have <span id="hits" class="hits">x</span> winning numbers
+    </p>
+  </body>
+  <script src="main.js"></script>
+</html>
