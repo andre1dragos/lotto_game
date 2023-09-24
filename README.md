@@ -20,7 +20,7 @@ This application simulates the experience of a lottery game.
 - Delete the number from selected list when click on them
 - Only if 6 numbers are selected the Draw button becomes active
 - When the Draw button is pressed spin the random numbers from winning numbers list
-- After spin is done highlight the winning numbers, hide the Draw button
+- After spin is done highlight the winning numbers and hide the Draw button
 - Retry button becomes active and if pressed resets the game
 
 ### Screenshot
