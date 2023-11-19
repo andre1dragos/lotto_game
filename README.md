@@ -17,10 +17,10 @@ This application simulates the experience of a lottery game.
 
 - Create a list of ticket numbers from 1 to 30 that can be selected
 - When numbers are selected, display them in a selected numbers list
-- Delete the number from selected list when click on them
-- Only if 6 numbers are selected the Draw button becomes active
+- Delete the number from selected list when click on it
+- Only if 6 numbers are selected the Draw button works
 - When the Draw button is pressed spin the random numbers from winning numbers list
-- After spin is done highlight the winning numbers and hide the Draw button
+- After spin is done highlight the winning numbers and deactivate the Draw button
 - Retry button becomes active and if pressed resets the game
 
 ### Screenshot
